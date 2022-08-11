@@ -110,6 +110,18 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     color: white;
     font-weight: 400;
 }
+.contact-info.lang span {
+    
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
 .container .right-side {
     position: relative;
     background: #fff;

@@ -55,17 +55,64 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .profile-text h2 {
     color: azure;
-    font-size: 25px;
+    font-size: 1.5rem;
+    /* use rem for font-size */
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
     line-height: 30px;
 }
-span {
+.profile-text h2 span {
     text-transform: capitalize;
+    font-weight: 300;
+}
+.contact-info {
+    padding-top: 10px;
+}
+.title {
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.contact-info ul {
+    position: relative;
+}
+.contact-info ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact-info ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 1.125rem;
+    color: blue;
+}
+.contact-info ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+.contact-info.education li {
+    margin-bottom: 10px;
+}
+.contact-info.education h5 {
+    color: aqua;
+    font-weight: 600;
+}
+.contact-info.education h4:nth-child(2) {
+    color: yellow;
+    font-weight: 500;
+}
+.contact-info.education h4 {
+    color: white;
+    font-weight: 400;
 }
 .container .right-side {
     position: relative;
     background: #fff;
     padding: 40px;
+    
 }

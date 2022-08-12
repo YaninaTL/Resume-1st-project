@@ -98,18 +98,16 @@ border-bottom: 1px solid #F1F7ED;
     color: #fff;
     font-weight: 300;
 }
-.contact-info.education li {
+.contact-info.support li {
     margin-bottom: 10px;
-}
-.contact-info.education h5 {
-    color: #EA9010;
+    display:inline;
+    color: rgb(255, 217, 0);
     font-weight: 500;
 }
-.contact-info.education h4:nth-child(2) {
-    color: #fff;
-    font-weight: 500;
+.contact-info.support li:nth-child(even) {
+    color: #e3ffba;
 }
-.contact-info.education h4 {
+.contact-info.support h4 {
     color: rgb(255, 217, 0);
     font-weight: 400;
 }
@@ -125,8 +123,24 @@ border-bottom: 1px solid #F1F7ED;
     margin-right: 10px;
     position: relative;
     }
-
-
+.contact-info.education .title {
+    margin-top: 9px;
+}
+.contact-info.education li {
+    margin-bottom: 5px;
+    }
+.contact-info.education h5 {
+    color:#EA9010;
+    font-weight: 300;
+}
+.contact-info.education h4 {
+    color:rgb(255, 217, 0);
+    font-weight: 500;
+}
+.contact-info.education h4:nth-child(2) {
+    color:#fff;
+    font-weight: 500;
+}
 
 
 
@@ -160,3 +174,16 @@ ul.exp23 {
 mark {
     background-color: rgba(255, 217, 0, 0.378);
 }
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+/* @media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+} */

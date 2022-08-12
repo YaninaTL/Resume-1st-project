@@ -28,7 +28,7 @@ body {
 }
 .container .left-side {
     position: relative;
-    background: brown;
+    background: #240e0e;
     padding: 40px;
 }
 .profile-text {
@@ -37,7 +37,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding-bottom: 20px;
-border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+border-bottom: 1px solid #F1F7ED;
 }
 .profile-text .img-box {
     position: relative;
@@ -92,7 +92,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 30px;
     font-size: 1.125rem;
-    color: blue;
+    color: #EA9010;
 }
 .contact-info ul li span {
     color: #fff;
@@ -102,15 +102,15 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
 }
 .contact-info.education h5 {
-    color: aqua;
+    color: #EA9010;
     font-weight: 500;
 }
 .contact-info.education h4:nth-child(2) {
-    color: yellow;
+    color: #fff;
     font-weight: 500;
 }
 .contact-info.education h4 {
-    color: white;
+    color: rgb(255, 217, 0);
     font-weight: 400;
 }
 .title a {
@@ -118,7 +118,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 .title a:hover {
-    color: aqua;
+    color: rgb(255, 217, 0);
 }
 .contact-info.lang span {
     margin-top: 10px;
@@ -138,16 +138,25 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     background: #fff;
     padding: 40px;
     }
-    .about {
-        margin-bottom: 50px;
+.about {
+        margin-bottom: 15px;
     }
-    .title2 {
-        color: red;
+.title2 {
+        color: #ff7308;
+        font-weight: 800;
         text-transform: uppercase;
         margin-bottom: 5px;
     }
-    ul.exp {
-    font-size: 0.7rem;
+ul.exp {
+    font-size: 0.8rem;
     font-weight: 600;
     list-style: square;
     }
+ul.exp23 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    list-style: none;
+    }
+mark {
+    background-color: rgba(255, 217, 0, 0.378);
+}

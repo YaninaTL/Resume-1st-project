@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 * {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* max-width: 2480px;
+    max-height: 3508px; */
 }
 body {
     background: bisque;
@@ -11,12 +13,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+
+} 
 .container {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
+    max-height: 1000px;
     background: #fff;
     margin: 50px;
     display: grid;
@@ -100,7 +103,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .contact-info.education h5 {
     color: aqua;
-    font-weight: 600;
+    font-weight: 500;
 }
 .contact-info.education h4:nth-child(2) {
     color: yellow;
@@ -118,9 +121,9 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     color: aqua;
 }
 .contact-info.lang span {
-    margin: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
     position: relative;
-
     }
 
 
@@ -134,10 +137,17 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     position: relative;
     background: #fff;
     padding: 40px;
-    
-}
-ul.exp {
+    }
+    .about {
+        margin-bottom: 50px;
+    }
+    .title2 {
+        color: red;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    ul.exp {
     font-size: 0.7rem;
     font-weight: 600;
     list-style: square;
-}
+    }

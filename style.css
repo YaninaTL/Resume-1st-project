@@ -14,11 +14,13 @@ body {
 } 
 .container {
     position: relative;
-    min-width: 100vw;
-    min-height: 100vh;
+    /* min-width: 100vw;
+    min-height: 100vh; */
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    width: 900px;
+    height: 1200px;
 }
 .container .left-side {
     position: relative;

@@ -166,6 +166,9 @@ border-bottom: 1px solid #F1F7ED;
     .about .box .years h5 {
         text-transform: uppercase;
     }
+    .about .box .years h5 mark {
+        text-transform: lowercase;
+    }
     .about .box .text h4 {
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -184,6 +187,7 @@ ul.exp23 {
     font-size: 0.8rem;
     font-weight: 600;
     list-style: none;
+    color: rgba(0, 0, 0, 0.8);
     }
 mark {
     background-color: rgba(159, 188, 139, 0.3);

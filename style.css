@@ -57,7 +57,7 @@ border-bottom: 1px solid #F1F7ED;
     object-fit: cover;
 }
 .profile-text h2 {
-    color: azure;
+    color:#fff;
     font-size: 2rem;
     /* was 1.5rem */
     /* use rem for font-size */
@@ -74,7 +74,7 @@ border-bottom: 1px solid #F1F7ED;
     padding-top: 10px;
 }
 .title {
-    color: azure;
+    color:#fff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -146,8 +146,17 @@ border-bottom: 1px solid #F1F7ED;
     color:#fff;
     font-weight: 500;
 }
-
-
+.contact-info.example li {
+    font-size: 1.2rem;
+    /* 0.8rem */
+    font-weight: 500;
+    list-style: none;
+    color:#fff;
+    margin-bottom: 10px;
+    }
+.contact-info.example a {
+color: #EA9010;
+    }
 
 
 
@@ -206,13 +215,6 @@ border-bottom: 1px solid #F1F7ED;
         color: rgba(0, 0, 0, 0.8);
     }
 
-ul.exp23 {
-    font-size: 1rem;
-    /* 0.8rem */
-    font-weight: 600;
-    list-style: none;
-    color: rgba(0, 0, 0, 0.8);
-    }
 mark {
     background-color: rgba(159, 188, 139, 0.3);
 }

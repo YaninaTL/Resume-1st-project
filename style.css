@@ -21,6 +21,7 @@ body {
     grid-template-columns: 1fr 2fr;
     width: 900px;
     height: 1200px;
+    /* Added width and hight */
 }
 .container .left-side {
     position: relative;
@@ -147,6 +148,9 @@ border-bottom: 1px solid #F1F7ED;
     position: relative;
     background:#fff;
     padding: 40px;
+    border-top: 5px solid #240e0e;
+    border-right: 5px solid #240e0e;
+    border-bottom: 5px solid #240e0e;
     }
 .about {
         margin-bottom: 15px;
@@ -170,6 +174,12 @@ border-bottom: 1px solid #F1F7ED;
     }
     .about .box .years h5 mark {
         text-transform: lowercase;
+    }
+    .about .box .years h5 span.zh {
+        font-weight: 200;
+    }
+    div.text p span.zh {
+        font-weight: 200;
     }
     .about .box .text h4 {
     text-transform: uppercase;

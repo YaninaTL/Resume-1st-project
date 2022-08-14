@@ -79,6 +79,7 @@ border-bottom: 1px solid #F1F7ED;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .contact-info ul {
     position: relative;
@@ -124,6 +125,7 @@ border-bottom: 1px solid #F1F7ED;
 .contact-info.lang span {
     margin-top: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     position: relative;
     }
 .contact-info.education .title {

@@ -14,13 +14,15 @@ body {
 } 
 .container {
     position: relative;
-    /* min-width: 100vw;
-    min-height: 100vh; */
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 900vw;
+    max-height: 1200vh;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 900px;
-    height: 1200px;
+    /* width: 900px;
+    height: 1200px; */
     /* Added width and hight */
 }
 .container .left-side {
@@ -168,6 +170,10 @@ border-bottom: 1px solid #F1F7ED;
     }
     .about .box .years {
         min-width: 100px;
+        margin-right: 20px;
+    }
+    .about .box .years .text {
+        margin-left: 30px;
     }
     .about .box .years h5 {
         text-transform: uppercase;

@@ -11,6 +11,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  span.text-span {
+  }
+  /* works only in the works section */
+  /*      mix-blend-mode: multiply; */
 }
 .container {
   position: relative;
@@ -100,6 +105,7 @@ body {
   color: #fff;
   font-weight: 300;
 }
+
 .contact-info.support li {
   margin-bottom: 10px;
   display: inline;
@@ -127,6 +133,7 @@ body {
   margin-bottom: 10px;
   position: relative;
 }
+
 .contact-info.education .title {
   margin-top: 9px;
 }

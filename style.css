@@ -13,6 +13,9 @@ body {
   align-items: center;
 
   span.text-span {
+    opacity: 0.1;
+    z-index: 1;
+    font-size: 5px;
   }
   /* works only in the works section */
   /*      mix-blend-mode: multiply; */
@@ -62,7 +65,7 @@ body {
 }
 .profile-text h2 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* was 1.5rem */
   /* use rem for font-size */
   margin-top: 20px;

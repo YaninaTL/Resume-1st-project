@@ -224,10 +224,10 @@ p {
 }
 
 mark {
-  background-color: rgba(159, 188, 139, 0.3);
+  background-color: rgba(183, 213, 85, 0.3);
 }
 mark.blue {
-  background-color: rgba(140, 186, 203, 0.3);
+  background-color: rgba(214, 165, 117, 0.3);
 }
 div.lang-prof img {
   /* position: relative; */
